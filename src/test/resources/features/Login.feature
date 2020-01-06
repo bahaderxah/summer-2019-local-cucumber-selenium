@@ -7,7 +7,7 @@ Feature: Users should be able to login
   @driver @VYT-123
   Scenario: Login as a driver
     When the users enters the driver information
-    Then the user should be able to login
+   Then the user should be able to login
 
   @sales_manager @VYT-123
   Scenario: Login as a sales manager
@@ -15,6 +15,6 @@ Feature: Users should be able to login
     Then the user should be able to login
 
   @store_manager
-  Scenario: Login as a s tore manager
+  Scenario: Login as a store manager
     When the user enters the store manager information
     Then the user should be able to login
